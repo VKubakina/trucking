@@ -1,0 +1,36 @@
+@import 'base.css';
+@import 'header.css';
+@import 'activity.css';
+@import 'services.css';
+@import 'about-map.css';
+@import 'footer.css';
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/roboto-v20-latin_cyrillic-ext_cyrillic-regular.ttf),
+        url(../fonts/roboto-v20-latin_cyrillic-ext_cyrillic-regular.woff),
+        url(../fonts/roboto-v20-latin_cyrillic-ext_cyrillic-regular.woff2),
+        url(../fonts/roboto-v20-latin_cyrillic-ext_cyrillic-regular.eot);
+    font-weight: 400;
+    font-style: normal;    
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/roboto-v20-latin_cyrillic-ext_cyrillic-500.eot),
+        url(../fonts/roboto-v20-latin_cyrillic-ext_cyrillic-500.ttf),
+        url(../fonts/roboto-v20-latin_cyrillic-ext_cyrillic-500.woff),
+        url(../fonts/roboto-v20-latin_cyrillic-ext_cyrillic-500.woff2);
+    font-weight: 500;
+    font-style: normal;    
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/roboto-v20-latin_cyrillic-ext_cyrillic-700.eot),
+        url(../fonts/roboto-v20-latin_cyrillic-ext_cyrillic-700.ttf),
+        url(../fonts/roboto-v20-latin_cyrillic-ext_cyrillic-700.woff),
+        url(../fonts/roboto-v20-latin_cyrillic-ext_cyrillic-700.woff2);
+    font-weight: 700;
+    font-style: normal;    
+}
