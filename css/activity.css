@@ -40,3 +40,40 @@
 .activity__img {
     text-align: center;
 }
+
+@media screen and (max-width: 1100px) {
+
+    .activity__info {
+        width: 85rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .activity__wrap {
+        height: 100%;
+        justify-content: space-around;
+    }
+
+    .activity__info {
+        padding: 3rem;
+        max-width: 50rem;
+        margin: 0;
+    }
+
+    .activity__title {
+        margin: auto;
+        text-align: center;
+    }
+
+    .activity__text {
+        max-width: 50rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .activity__info {
+        max-width: 40rem;
+    }
+}

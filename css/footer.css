@@ -65,3 +65,57 @@
     text-shadow: 0px 2px 2px var(--white),
     0px 0px 2px var(--white);
 }
+
+@media screen and (max-width: 1200px) {
+    .footer__mail {
+        margin-left: 3rem;
+    }
+    .footer__tel {
+        margin-left: 3rem;
+    }
+    .footer__developer {
+        margin-left: 15rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .footer__developer {
+        margin-left: 5rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .footer__mail {
+        width: 10rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footer {
+        height: 25rem;
+    }
+
+    .footer__wrap {
+        padding: 2rem 0;
+    }
+
+    .footer__logo {
+        width: 12rem;
+    }
+
+    .footer__mail {
+        width: 40rem;
+        text-align: center;
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    .footer__tel {
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    .footer__developer {
+        margin-left: 0;
+    }
+}

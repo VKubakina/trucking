@@ -90,3 +90,50 @@
 .map {
     margin-bottom: 5.7rem;
 }
+
+@media screen and (max-width: 1200px) {
+    .about__text {
+        width: 35rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .about__cards {
+        margin-left: 10rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .about__cards :nth-child(3) {
+        display: none;
+    }
+
+    .about__cards :nth-child(4) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about {
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+
+    .about__info {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .about__cards {
+        flex-direction: column;
+        margin-top: 8rem;
+    }
+
+    .about__card {
+        height: 14rem;
+    }
+
+    .map {
+        margin-bottom: 2rem;
+    }
+}
